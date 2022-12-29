@@ -19,7 +19,7 @@ public class Tester1 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		driver.get("https://demo.actitime.com/login.do");
-		
+		//author hulk
 		driver.findElement(By.id("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.id("loginButton")).click();
